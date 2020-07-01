@@ -10,4 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Message that will be displayed on users'' first issue'
-        pr-message: 'Obrigado por submeter um pull request, favor requisitar a avaliação de seus pares.'' first pr'
+        pr-message: 'Obrigado por submeter um pull request, favor requisitar a avaliação de seus pares.'
