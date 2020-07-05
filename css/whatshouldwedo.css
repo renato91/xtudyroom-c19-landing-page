@@ -1,0 +1,125 @@
+.covid19 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #FA5652;
+}
+
+div {
+    display: block;
+}
+
+.titlesh2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.textwswd {
+    font-size: 18px;
+    padding: 0 120px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 215%;
+}
+
+.section-defini {
+    margin-left: 10%;
+}
+
+.justmargin {
+    margin-top: 80px;
+}
+
+.numberwswd {
+    font-size: 32px;
+    color: #FA5652;
+    background-color: #FFBFBE;
+    width: 56px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 100%;
+}
+
+.numberwswdmargin {
+    margin-left: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.titlesteps {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.textsteps {
+    font-size: 18px;
+    line-height: 170%;
+    width: 110%;
+}
+
+.imgwswdimpar {
+    margin-left: 40px;
+}
+
+.imgwswd {
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .imgwswd, .imgwswdimpar {
+        margin-top: 30%;
+    }
+
+    .textwswd {
+        padding: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+    .textwswd {
+        padding: 0px;
+    }
+
+    .imgwswdimpar, .imgwswd {
+        margin: 0;
+        display: none;
+    }
+
+    .titlesteps {
+        font-size: 24px;
+    }
+
+    .textsteps {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .numberwswd {
+        margin-top: 30px;
+        display: none;
+    }
+
+    .section-defini {
+        margin: -10px;
+    }
+
+    .justmargin {
+        margin-top: 10px;
+    }
+
+    .justmargin2 {
+        margin-top: 80px;
+    }
+}
