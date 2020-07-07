@@ -1,0 +1,57 @@
+.covid19 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #FA5652;
+}
+
+.titlesh2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.textwswd {
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0 216px;
+    margin-bottom: 110px;
+}
+
+img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgcontagion {
+    width: 80%;
+}
+
+.contacting {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 32px;
+}
+
+.titlesteps {
+    font-size: 16px;
+    line-height: 216%;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.teste {
+    box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    height: 475px;
+}
+
+@media only screen and (max-width: 787px) {
+    .textwswd {
+        padding: 0;
+    }
+}
