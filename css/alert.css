@@ -1,0 +1,54 @@
+.covid19 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 16px;
+    color: #FA5652;
+}
+
+.titlesh2alert {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 29px;
+}
+
+.textalert {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 60px;
+}
+
+.imgalert {
+    width: 150%;
+}
+
+@media only screen and (min-width: 788px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+    .imgalert {
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .covid19 {
+        margin-top: 32px;
+    }
+
+    .titlesh2alert {
+        font-size: 24px;
+    }
+
+    .textalert {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+}
