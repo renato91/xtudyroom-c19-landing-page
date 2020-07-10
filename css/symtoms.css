@@ -5,7 +5,7 @@
     color: #FA5652;
 }
 
-.titlesh2symptoms {
+.title-symptoms {
     font-size: 32px;
     font-weight: bold;
     text-transform: capitalize;
@@ -13,7 +13,7 @@
     margin-bottom: 16px;
 }
 
-.textsymptoms {
+.text-symptoms {
     font-size: 18px;
     padding: 0 120px;
     text-align: center;
@@ -22,17 +22,17 @@
     margin-bottom: 60px;
 }
 
-.imgsymptons {
+.img-symptons {
     width: 100%;
 }
 
 @media only screen and (max-width: 787px) {
 
-    .titlesh2symptoms {
+    .title-symptoms {
         font-size: 24px;
     }
     
-    .textsymptoms {
+    .text-symptoms {
         padding: 0;
         font-size: 16px;
     }
