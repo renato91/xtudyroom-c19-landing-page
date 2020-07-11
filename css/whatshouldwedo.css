@@ -73,6 +73,13 @@ img {
     margin-top: 0;
 }
 
+@media only screen and (min-width: 788px) {
+    #displaynonemobile {
+        display: none;
+    }
+
+}
+
 @media only screen and (min-width: 788px) and (max-width: 979px) {
     .imgwswd, .imgwswdimpar {
         margin-top: 30%;
@@ -80,6 +87,10 @@ img {
 
     .textwswd {
         padding: 0 70px;
+    }
+
+    #displaynonemobile {
+        display: none;
     }
 }
 
@@ -90,16 +101,18 @@ img {
 
     .imgwswdimpar, .imgwswd {
         margin: 0;
-        display: none;
+        /* display: none; */
     }
 
     .titlesteps {
         font-size: 24px;
+        margin-top: 0;
     }
 
     .textsteps {
         width: 100%;
         font-size: 16px;
+        margin-bottom: 100px;
     }
 
     .container {
@@ -121,5 +134,9 @@ img {
 
     .justmargin2 {
         margin-top: 80px;
+    }
+
+    #displaynonedesktop {
+        display: none;
     }
 }
