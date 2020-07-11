@@ -1,0 +1,39 @@
+.covid19 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #FA5652;
+}
+
+.title-symptoms {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.text-symptoms {
+    font-size: 18px;
+    padding: 0 120px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 215%;
+    margin-bottom: 60px;
+}
+
+.img-symptons {
+    width: 100%;
+}
+
+@media only screen and (max-width: 787px) {
+
+    .title-symptoms {
+        font-size: 24px;
+    }
+    
+    .text-symptoms {
+        padding: 0;
+        font-size: 16px;
+    }
+}
