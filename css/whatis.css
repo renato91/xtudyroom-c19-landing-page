@@ -1,0 +1,61 @@
+/* Área de texto */
+.whatIsCovid {
+	margin-top: 250px;
+    margin-left: 80px;
+	text-align: left;
+    padding-bottom: 300px;
+}
+
+.whatIsCovid h1 {
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 20px; 
+    color: #035755;
+    line-height: 140%;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.whatIsCovid h3 {
+	font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #FB4C47;
+}
+
+.whatIsCovid p {
+	font-size: 16px;
+    text-transform: capitalize;
+    line-height: 200%;
+    margin-top: 20px;
+}
+
+.whatIsCovid a {
+	color: #FB4C47;
+	font-weight: bold;
+	padding: 10px 0;
+}
+	
+/* Botões */
+
+.btn-learnmore {
+    width: 200px;
+    height: 65px;
+
+    background: rgba(250, 86, 82, 0.15);
+    border-radius: 65px;
+    border: none;
+}
+
+.btnStyle {
+	margin-top: 30px;
+}
+
+/* Imagem dos vírus a direta */
+
+
+.bgVirus {
+    margin-left: 80px;
+    margin-top: 410px;
+}
