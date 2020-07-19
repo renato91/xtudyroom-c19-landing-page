@@ -1,0 +1,32 @@
+.footerMenu li {
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	color: #035755;
+}
+
+.footerMenu a {
+	color: #00402E;
+	padding-right: 25px;
+	margin-left: 25px;
+}
+
+.footerMenu a:hover {
+	color: #FB4C47;
+}
+
+.socialMedia li {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.socialMedia a {
+		padding: 10px 10px 10px 0;
+		margin-left: 10px;
+}
+
+.copy {
+	text-align: center;
+	color: #415E56;
+	margin-top: 75px;
+}

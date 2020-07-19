@@ -1,0 +1,30 @@
+.newsletter {
+	text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 29px;
+  color: #035755;
+}
+
+.form {
+	text-align: center;
+}
+
+.test {
+box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+border-radius: 57px;
+height: 80px;
+padding-left: 160px;
+border: none;
+background: white;
+}
+
+.skin {
+width: 700px;
+box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+border-radius: 57px;
+margin-top: 100px;
+}
